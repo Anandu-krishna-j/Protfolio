@@ -4,7 +4,7 @@ import ProtFolio from "./Modules/PortFolio/ProtFolio";
 function App() {
   return ( 
     <Routes>
-      <Route path="/" element={<ProtFolio/>}/>
+      <Route path="/Protfolio" element={<ProtFolio/>}/>
     </Routes>
   );
 }

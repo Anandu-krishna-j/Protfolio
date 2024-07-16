@@ -5,8 +5,9 @@ function Navbar() {
         <h1
           htmlFor=""
           className="font-bold text-[30px]"
+          style={{ fontFamily: "cur" }}
         >
-          TECHY
+          Techy
         </h1>
       </div>
       <div className="flex items-center gap-9">
@@ -16,7 +17,7 @@ function Navbar() {
         <div>Contact</div>
       </div>
       <div>
-        <a href="Resume.pdf" download target="_blank">
+        <a href="Resume.pdf" download="Resume.pdf">
           <button className="bg-[#800020] p-2 rounded text-white hover:bg-black transition ease-in-out">
             Download CV
           </button>
